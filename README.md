@@ -296,9 +296,7 @@ After reviewing that raw data and model binaries are excluded from Git:
 
 ```powershell
 # From the project root with the venv active:
-git remote add origin https://github.com/YOUR-USERNAME/turbofan-rul-prediction.git
+git remote add origin https://github.com/Imandi-Likhitha-Sree8/turbofan-rul-prediction.git
 git branch -M main
 git push -u origin main
 ```
-
-Replace `YOUR-USERNAME` with your GitHub username. Never commit raw dataset files or model `.joblib` binaries without checking size limits and redistribution terms.
